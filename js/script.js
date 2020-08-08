@@ -69,6 +69,7 @@ let btnMessage = document.querySelector('#btnMessage');
 
 btnMessage.addEventListener('click', function() {
   alert('Отправлено');
+
 });
 
 //skils bar
