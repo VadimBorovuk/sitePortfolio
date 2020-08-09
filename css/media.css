@@ -541,6 +541,14 @@
     .infoMain .infoPerson {
         font-size: 20px;
     }
+    .infoPerson .infoTitle {
+        font-size: 24px;
+        color: #fff;
+        padding: 0 40px;
+    }
+    .infoPerson .infoBtn {
+        width: 150px;
+    }
 
     .content__work .img__work {
         height: 150px;
