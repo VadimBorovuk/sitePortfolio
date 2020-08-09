@@ -853,7 +853,8 @@
         height: 0;
     }
 
-    #sectionUpper .infoMain {
+    #sectionUpper .infoMain,
+    .backgroundOpacity{
         min-height: 400px;
         height: auto;
     }
