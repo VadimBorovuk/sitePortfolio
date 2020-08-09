@@ -16,6 +16,13 @@ body {
     width: 100%;
 }
 
+.backgroundOpacity {
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+
 #sectionUpper {
     height: 100%;
     display: flex;
@@ -196,23 +203,44 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../img/background.jpg');
+    background: url('../img/background.jpg') center no-repeat;
+    background-size: cover;
 }
 
+
 .infoMain .infoPerson {
+    position: relative;
     text-align: center;
     font-size: 50px;
     font-weight: normal;
-    cursor: pointer;
-    text-shadow: 1px 1px 0 hsl(20, 100%, 50%), 2px 2px 0 hsl(20, 100%, 50%),
-    3px 3px 0 hsl(35, 100%, 50%), 4px 4px 0 hsl(35, 100%, 50%),
-    5px 5px 0 hsl(45, 100%, 50%), 6px 6px 0 hsl(45, 100%, 55%),
-    7px 7px 0 hsl(55, 100%, 60%), 8px 8px 0 hsl(55, 100%, 65%);
-    color: hsl(0, 100%, 40%);
     transition: all 1s;
+    z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-#sectionForME {
+.infoPerson .infoTitle {
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.infoPerson .infoBtn{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all .4s;
+    margin: 0 auto;
+}
+.infoPerson .infoBtn:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    background: #3a3a3a;
+}
+
+#sectionForMe {
     max-width: 1170px;
     display: flex;
     justify-content: center;
@@ -366,8 +394,7 @@ body {
 .main__plan #headPlan {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    width: 250px;
-    height: 60px;
+    width: 220px;
     margin: auto;
     background: #fff;
     color: #000;
@@ -393,7 +420,6 @@ body {
 .main__plan .container__plan #divOne,
 #divTwo,
 #divThree {
-    font-family: 'Hanalei Fill', cursive;
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
@@ -482,7 +508,10 @@ h4 {
 }
 
 .text__work .btn__info {
-    display: block;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
     margin-top: 15px;
     height: 40px;
     line-height: 40px;
@@ -495,14 +524,14 @@ h4 {
     font-weight: bold;
 }
 
-.btn__info:hover{
+.btn__info:hover {
     background: #08a0d3;
     border: 2px solid #08a0d3;
     font-size: 16px;
-}
-.text__work .btn__info:hover a{
     color: #ffffff;
+    text-decoration: none;
 }
+
 
 .text__work .btn__info a {
     text-decoration: none;
@@ -672,7 +701,8 @@ h4 {
     padding: 10px;
     width: 100%;
 }
-.divFoo a:hover{
+
+.divFoo a:hover {
     text-decoration: none;
     color: aquamarine;
 }
@@ -777,9 +807,11 @@ h4 {
     position: relative;
     margin-bottom: 12px;
 }
+
 .info__contact h2 {
     font-size: 18px;
 }
+
 .description-skills .procent {
     color: black;
     position: absolute;

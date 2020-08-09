@@ -15,6 +15,7 @@
             integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
             crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -27,6 +28,7 @@
             <li class="navLink"><a href="#contacts">Контакти</a></li>
         </ul>
     </nav>
+    <div class="backgroundOpacity"></div>
     <section id="sectionUpper">
         <div class="menu animated jello">
             <button class="menu-btn" id="btnMenu"><span></span></button>
@@ -63,16 +65,14 @@
         </div>
 
         <div class="infoMain">
-            <div class="infoPerson  wow fadeInLeftBig">
-                <h1 class="localization" data-name="name">Вадим Боровик</h1>
-                <h2 class="localization" data-name="speciality">
-                    Фронтенд розробник
-                </h2>
+            <div class="infoPerson wow fadeInLeftBig">
+                <h1 class="infoTitle">Welcome to my page</h1>
+                <a href="#sectionForMe" class="infoBtn">Lets go</a>
             </div>
         </div>
     </section>
 
-    <section id="sectionForME">
+    <section id="sectionForMe">
         <div class="container">
             <div class="row">
                 <div id="myInfo">
@@ -308,9 +308,10 @@
                         </div>
                         <div class="col-10 col-lg-6">
                             <div class="text__work">
-                                <h2 class="localization" data-name="verstka">Сайт візитка</h2>
-                                <p class="localization" data-name="infoverstka">
-                                    В данній роботі, я використовував React, Redux для сайту візитка, а також для прогнозу погоди, вводячи місто я
+                                <h2 class="localization" data-name="infoCardTitle">Сайт візитка</h2>
+                                <p class="localization" data-name="infoCard">
+                                    В данній роботі, я використовував React, Redux для сайту візитка, а також для
+                                    прогнозу погоди, вводячи місто я
                                     дізнаюсь температуру, тиск, захід сонця.
                                 </p>
                                 <h4 class="localization" data-name="stecTech">Стек технологій:</h4>
@@ -320,10 +321,9 @@
                                     <li>Weahter API</li>
                                     <li>Es6</li>
                                 </ul>
-                                <button class="btn__info"><a href="https://site-info-5fbb5.firebaseapp.com"
-                                                             target="blank" class="localization"
-                                                             data-name="more">Детальніше</a>
-                                </button>
+                                <a href="https://site-info-5fbb5.firebaseapp.com"
+                                   target="blank" class="btn__info localization"
+                                   data-name="more">Детальніше</a>
                             </div>
                         </div>
                     </div>
@@ -335,9 +335,11 @@
                         </div>
                         <div class="col-10 col-lg-6">
                             <div class="text__work">
-                                <h2 class="localization" data-name="verstka">Интернет магазин на React & Redux</h2>
-                                <p class="localization" data-name="infoverstka">
-                                    В данній роботі я зробив інтернет магазин, де можна: знайти, вибрати і відшукати книжку по автору т ціні
+                                <h2 class="localization" data-name="infoMagazineTitle">Інтернет магазин на React &
+                                    Redux</h2>
+                                <p class="localization" data-name="infoMagazine">
+                                    В данній роботі, я зробив інтернет магазин, де можна: знайти, вибрати і відшукати
+                                    книжку по автору та ціні.
                                 </p>
                                 <h4 class="localization" data-name="stecTech">Стек технологій:</h4>
                                 <ul class="work-skills">
@@ -346,24 +348,23 @@
                                     <li>React</li>
                                     <li>Es6</li>
                                 </ul>
-                                <button class="btn__info"><a href="https://shopping-books-77c1a.web.app/"
-                                                             target="blank" class="localization"
-                                                             data-name="more">Детальніше</a>
-                                </button>
+                                <a href="https://shopping-books-77c1a.web.app/"
+                                   target="blank" class="btn__info localization"
+                                   data-name="more">Детальніше</a>
                             </div>
                         </div>
                     </div>
                     <div class="content__work">
                         <div class="col-10 col-lg-6">
                             <div class="img__work">
-                                <img src="img/vuejs.png" alt=""/>
+                                <img src="img/smart-mobile-fleeca.jpg" alt=""/>
                             </div>
                         </div>
                         <div class="col-10 col-lg-6">
                             <div class="text__work">
-                                <h2 class="localization" data-name="verstka">Додаток на Vue.js</h2>
-                                <p class="localization" data-name="infoverstka">
-                                    В данній роботі я використовував Vue.js, для проводження оплати в онлайн грі, також
+                                <h2 class="localization" data-name="infoAppTitle">Додаток на Vue.js</h2>
+                                <p class="localization" data-name="infoApp">
+                                    В данній роботі, я використовував Vue.js, для проводження оплати в онлайн грі, також
                                     GSAP для анімацій і Pug для верстки компонентів.
                                 </p>
                                 <h4 class="localization" data-name="stecTech">Стек технологій:</h4>
@@ -371,74 +372,39 @@
                                     <li>Vue.js</li>
                                     <li>GSAP</li>
                                     <li>Pug</li>
+                                    <li>SCSS</li>
                                 </ul>
-                                <button class="btn__info"><a href="https://vavilon-smartphone-fleeca.web.app/"
-                                                             target="blank" class="localization"
-                                                             data-name="more">Детальніше</a>
-                                </button>
+                                <a href="https://vavilon-smartphone-fleec-e05ad.web.app/"
+                                   target="blank" class="btn__info localization"
+                                   data-name="more">Детальніше</a>
                             </div>
                         </div>
                     </div>
-
                     <div class="content__work">
                         <div class="col-10 col-lg-6">
                             <div class="img__work">
-                                <img src="img/blog.png" alt=""/>
+                                <img src="img/dashboard-BG.jpg" alt=""/>
                             </div>
                         </div>
                         <div class="col-10 col-lg-6">
                             <div class="text__work">
-                                <h2 class="localization" data-name="blog">Блог</h2>
-                                <p class="localization" data-name="infoblog">
-                                    В данній роботі я зробив конструктор, за допомогою якого можна створити власний
-                                    блог, в
-                                    якому
-                                    вказується: автор, дата створення, картинка, текст, лайки, коментарі, кількість
-                                    коментарів.
+                                <h2 class="localization" data-name="infoPanelTitle">Інформаційна панель на React.js</h2>
+                                <p class="localization" data-name="infoPanel">
+                                    В данній роботі, я використовував React.js, для створення інформаційної панелі,
+                                    інфрмації про себе, мої навички і досвід роботи, також в розділі My Demo є форма.
+                                    яку можна заповнити і отримати список інформації котру обрали. Її можна проглядати,
+                                    змінювати, видаляти. Більше робіт також ви може знайти в розділі My Projects.
                                 </p>
                                 <h4 class="localization" data-name="stecTech">Стек технологій:</h4>
                                 <ul class="work-skills">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>ES6</li>
-
+                                    <li>React.js</li>
+                                    <li>React-form</li>
+                                    <li>Jsx</li>
+                                    <li>SCSS</li>
                                 </ul>
-                                <button class="btn__info"><a href="https://vadimborovuk.github.io/Kursova/"
-                                                             target="blank" class="localization"
-                                                             data-name="more">Детальніше</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content__work">
-                        <div class="col-10 col-lg-6">
-                            <div class="img__work">
-                                <img src="img/works.png" alt=""/>
-                            </div>
-                        </div>
-                        <div class="col-10 col-lg-6">
-                            <div class="text__work">
-                                <h2 class="localization" data-name="sitePortfolio">Сайт-портфоліо</h2>
-                                <p class="localization" data-name="infositePortfolio">
-                                    В данній роботі я зробив Сайт-портфоліо, для власної практики, зробивши навігацію по
-                                    сайту,
-                                    анімації, валідацію форми, адаптив сайту.
-                                </p>
-                                <h4 class="localization" data-name="stecTech">Стек технологій:</h4>
-                                <ul class="work-skills">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>SASS</li>
-                                    <li>jQuery</li>
-                                    <li>Gulp</li>
-                                </ul>
-                                <button class="btn__info "><a class="localization" data-name="more"
-                                                              href="https://vadimborovuk.github.io/mysecondPorfolio/"
-                                                              target="blank">Детальніше</a>
-                                </button>
+                                <a href="https://reactdashboard-4c232.web.app/demo"
+                                   target="blank" class="btn__info localization"
+                                   data-name="more">Детальніше</a>
                             </div>
                         </div>
                     </div>
@@ -472,7 +438,7 @@
                                 <h2 class="localization" data-name="infoMe">Про себе</h2>
                                 <div class="line"></div>
                                 <p class="localization" data-name="myFacts">
-                                    Всім привіт! Мене звуть Вадим я Front-end developer. С тих пір,
+                                    Всім привіт! Мене звати Вадим я Front-end developer. С тих пір,
                                     як вперше побачив на екрані "Hello world!" зрозумів, що це те
                                     чого хочу присвятити всього себе! З тих пір спливло чимало
                                     рядків коду.

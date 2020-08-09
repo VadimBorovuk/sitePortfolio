@@ -19,14 +19,20 @@
   "infoDeveloped": "This is the most important stage. On which the logical structured code is written. In the end, we get a beautiful, cross-browser, adaptive, fast, user-friendly site.",
   "portfolio": "Portfolio",
   "examples": "Examples / Works",
-  "sitePortfolio": "Site portfolio",
-  "infositePortfolio": "In this work, I made a Site Portfolio for my own practice, making site navigation, animation, validation of the form, adaptive site.",
   "stecTech": "Stack of technologies:",
   "more": "More",
-  "blog": "Blog",
-  "infoblog": "In this work, I created a designer with which you can create your own blog, which specifies: author, date of creation, picture, text, lyrics, comments, number of comments.",
-  "verstka": "React application",
-  "infoverstka": "In this work I used React, for weather forecasting, introducing the city I find the temperature, pressure, sunset.",
+  "infoCardTitle": "Business card site",
+  "infoCard": "In this work, I used React, Redux for the business card site as well for weather forecast entering city I learn temperature, pressure, sunset.",
+
+  "infoMagazineTitle": "Internet magazine at React & Redux",
+  "infoMagazine": "In this work, I made an online store where you can: find, select and find a book by author and price.",
+
+  "infoAppTitle": "App on Vue.js",
+  "infoApp": "In this work, I used Vue.js, to make payments in the online game, as well as GSAP for animations and Pug for component layout.",
+
+  "infoPanelTitle": "Dashboard on React.js",
+  "infoPanel": "In this work, I used React.js to create an information panel, information about myself, my skills and experience, also in the section My Demo there is a form that you can fill out and get a list of information you have chosen. It can be viewed, modified, deleted. You can also find more work in the My Projects section.",
+
   "contacts": "Contacts",
   "infocontacts": "Contact / Write",
   "send": "Send",

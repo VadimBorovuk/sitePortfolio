@@ -1,5 +1,5 @@
 @media screen and (max-width: 1300px) {
-    #sectionForME {
+    #sectionForMe {
         max-width: 960px;
     }
 }
@@ -41,10 +41,6 @@
         height: 0;
     }
 
-    #sectionUpper .infoMain {
-        height: 100vh;
-    }
-
     .iconContact a {
         color: #fff;
         padding-bottom: 15px;
@@ -67,13 +63,13 @@
         font-size: 18px;
     }
 
-    #sectionForME #myInfo {
+    #sectionForMe #myInfo {
         width: 100%;
         height: 100%;
         padding-left: 20px;
     }
 
-    #sectionForME {
+    #sectionForMe {
         height: 100%;
         display: flex;
         justify-content: center;
@@ -101,8 +97,6 @@
 
     /* for planWork */
     .main__plan #headPlan {
-        width: 199px;
-        height: 65px;
         font-size: 19px;
         margin-bottom: 62px;
         line-height: 32px;
@@ -149,7 +143,6 @@
         margin-top: 15px;
         height: 35px;
         line-height: 32px;
-        width: 92px;
         font-size: 15px;
         border-radius: 5px;
     }
@@ -328,13 +321,13 @@
         margin-bottom: 0;
     }
 
-    #sectionForME #myInfo {
+    #sectionForMe #myInfo {
         width: 100%;
         height: 100%;
         padding-left: 20px;
     }
 
-    #sectionForME {
+    #sectionForMe {
         height: 100%;
         display: flex;
         justify-content: center;
@@ -404,8 +397,6 @@
 
     /* for planWork */
     .main__plan #headPlan {
-        width: 180px;
-        height: 60px;
         line-height: 30px;
         font-size: 18px;
         margin-bottom: 62px;
@@ -462,7 +453,6 @@
         margin-top: 15px;
         height: 35px;
         line-height: 32px;
-        width: 92px;
         font-size: 15px;
         border-radius: 5px;
     }
@@ -650,13 +640,13 @@
         margin-bottom: 0;
     }
 
-    #sectionForME #myInfo {
+    #sectionForMe #myInfo {
         width: 100%;
         height: 100%;
         padding-left: 20px;
     }
 
-    #sectionForME {
+    #sectionForMe {
         height: 100%;
         display: flex;
         justify-content: center;
@@ -861,7 +851,7 @@
     }
 
     #sectionUpper .menu {
-        min-height: 400px;
+        min-height: 100%;
         height: auto;
     }
 
@@ -877,13 +867,13 @@
         margin-bottom: 0;
     }
 
-    #sectionForME #myInfo {
+    #sectionForMe #myInfo {
         width: 100%;
         height: 100%;
         padding-left: 20px;
     }
 
-    #sectionForME {
+    #sectionForMe {
         height: 100%;
         display: flex;
         justify-content: center;
@@ -932,8 +922,6 @@
 
     /* for planWork */
     .main__plan #headPlan {
-        width: 180px;
-        height: 60px;
         font-size: 18px;
         margin-bottom: 62px;
     }
