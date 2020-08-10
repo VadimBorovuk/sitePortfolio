@@ -52,7 +52,6 @@
     #myInfo .btns__Info .bNext {
         height: 40px;
         width: 40px;
-        line-height: 35px;
         background: #000;
         font-size: 25px;
         cursor: pointer;
@@ -127,7 +126,6 @@
     /*for porfolio  */
     #head__Work {
         width: 200px;
-        height: 66px;
         font-size: 20px;
         margin: 42px auto;
         line-height: 32px;
@@ -430,7 +428,6 @@
     /*for porfolio  */
     #head__Work {
         width: 180px;
-        height: 60px;
         font-size: 18px;
         line-height: 30px;
     }
@@ -723,7 +720,6 @@
     /*for porfolio  */
     #head__Work {
         width: 180px;
-        height: 60px;
         font-size: 18px;
         line-height: 30px;
     }
@@ -963,7 +959,6 @@
     #head__Work {
         width: 180px;
         line-height: 30px;
-        height: 60px;
         font-size: 18px;
     }
 

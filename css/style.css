@@ -261,6 +261,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin: 25px 0 25px 0;
+
 }
 
 #myInfo .btns__Info .bPrev,
@@ -269,11 +270,12 @@ body {
     text-align: center;
     height: 50px;
     width: 50px;
-    line-height: 40px;
+    line-height: 30px;
     border-radius: 50%;
     background: #000;
-    font-size: 50px;
+    font-size: 40px;
     color: #ffffff;
+    border: 5px solid aquamarine;
 }
 
 .bPrev,
@@ -282,12 +284,14 @@ body {
 }
 
 #myInfo #headInfo {
-    font-family: 'Poppins', sans-serif;
     text-align: center;
     width: 250px;
     background: #000;
     color: #fff;
     line-height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 30px;
+    border: 9px solid aquamarine;
 }
 
 #myInfo h3,
@@ -392,7 +396,7 @@ body {
 }
 
 .main__plan #headPlan {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     width: 220px;
     margin: auto;
@@ -402,7 +406,8 @@ body {
     margin-bottom: 50px;
     font-size: 18px;
     margin-top: 60px;
-    border: 1px solid aquamarine;
+    border-radius: 30px;
+    border: 9px solid aquamarine;
 }
 
 #headPlan p,
@@ -450,10 +455,11 @@ body {
 }
 
 #head__Work {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 30px;
+    border: 9px solid aquamarine;
     text-align: center;
     width: 250px;
-    height: 60px;
     margin: auto;
     background: #000;
     color: #fff;
@@ -479,6 +485,8 @@ body {
     max-width: 400px;
     margin: auto;
 }
+.content__work .img__work{}
+
 
 .img__work img {
     max-width: 100%;
@@ -553,8 +561,9 @@ h4 {
 }
 
 #mainContact #head__contact {
-    font-family: 'Poppins', sans-serif;
-    border: 2px solid aquamarine;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 30px;
+    border: 9px solid aquamarine;
     text-align: center;
     width: 250px;
     margin: auto;
