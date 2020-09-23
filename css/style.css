@@ -485,7 +485,7 @@ body {
     max-width: 400px;
     margin: auto;
 }
-.content__work .img__work{}
+
 
 
 .img__work img {
@@ -495,6 +495,14 @@ body {
 .content__work .text__work {
     font-size: 15px;
     padding: 10px;
+}
+.work__links{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.work__links a{
+    margin: 0 5px;
 }
 
 .text__work h2,
@@ -520,7 +528,6 @@ h4 {
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
     height: 40px;
     line-height: 40px;
     width: 120px;
@@ -530,6 +537,7 @@ h4 {
     cursor: pointer;
     transition: .4s all;
     font-weight: bold;
+    margin-top: 0;
 }
 
 .btn__info:hover {
