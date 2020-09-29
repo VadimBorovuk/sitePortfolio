@@ -37,6 +37,8 @@
   "infoModal": "A modal window was created, in which there is a countdown timer, cards for obtaining a balance and selecting a select field.",
   "infoVuePanelTitle": "Dashboard Vue.js",
   "infoVuePanel": "In this work, a map and a list of cards that can be added to the favorites tab are displayed. Also filter by publication date.",
+  "infoAuthReactTitle": "Blog with authorization on React.js",
+  "authReactPanel": "In this work, firebase is connected to authorize the client to access the main page. Which displays information about employees. A map is also available in the panel.",
   "contacts": "Contacts",
   "infocontacts": "Contact / Write",
   "send": "Send",
